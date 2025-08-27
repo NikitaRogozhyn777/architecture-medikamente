@@ -16,6 +16,8 @@
 
 На уровне Container Diagram предлагается следующая целевая архитектура:
 
+![Container diagram (To Be)](./diagrams/architecture-medikamente-Container%20diagram%20(To%20Be).drawio.png)
+
 ### 1. API Gateway (Kong / Apache APISIX / Spring Cloud Gateway)
 **Роль**: Единая точка входа для всех внешних и внутренних запросов
 **Реализация PbD**: Встроенные политики аутентификации, авторизации (интеграция с OPA), rate limiting, проверка данных (валидация контрактов), сквозное шифрование (TLS termination)
